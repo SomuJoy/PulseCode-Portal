@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@pulse-ui/login-page": ["libs/pulse-code-use-cases/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
