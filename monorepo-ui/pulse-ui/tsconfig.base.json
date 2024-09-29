@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pulse-ui/login-page": ["libs/pulse-code-use-cases/src/index.ts"]
+      "@pulse-ui/login-form": ["libs/domains/account/ui-login/src/index.ts"],
+      "@pulse-ui/login-page": [
+        "libs/pulse-code-use-cases/account/feature-account-login/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
